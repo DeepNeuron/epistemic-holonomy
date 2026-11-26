@@ -1,0 +1,139 @@
+{
+ "witness": {
+  "word": "ABABABAAB",
+  "epsilon": "pi/3",
+  "rho_plus": [
+   [
+    "15/32",
+    "sqrt(3)/16 - 9*sqrt(3)*I/32"
+   ],
+   [
+    "sqrt(3)/16 + 9*sqrt(3)*I/32",
+    "17/32"
+   ]
+  ],
+  "rho_minus": [
+   [
+    "15/32",
+    "sqrt(3)/16 + 9*sqrt(3)*I/32"
+   ],
+   [
+    "sqrt(3)/16 - 9*sqrt(3)*I/32",
+    "17/32"
+   ]
+  ],
+  "D_squared": "243/256",
+  "D": "9*sqrt(3)/16",
+  "eigenvalues_of_rho_plus_minus_rho_minus": [
+   "-9*sqrt(3)/16",
+   "9*sqrt(3)/16"
+  ],
+  "difference_equals_this_times_sigma_y": "9*sqrt(3)/16",
+  "purity_rho_plus": "1"
+ },
+ "witness_under_dephasing": {
+  "lambda": "exp(-gamma), coherence factor per sensing window",
+  "D_squared_polynomial": "3*lambda**2*(8*lambda**2 + 1)**2/256",
+  "grouped_AB_D_squared": "3*lambda**2/4",
+  "crossing_lambda": [
+   "sqrt(14)/4"
+  ],
+  "crossing_gamma": [
+   "-log(14)/2 + 2*log(2)"
+  ],
+  "crossing_gamma_float": [
+   0.0667656963123
+  ]
+ },
+ "unlimited_grouped_ceiling": {
+  "A_period": "6",
+  "B_period": "4",
+  "ceiling_D_squared": "3/4",
+  "argmax": "AB"
+ },
+ "universal_search": {
+  "max_depth": 9,
+  "by_length": {
+   "0": {
+    "words": 1,
+    "unique_D2_polynomials": 1,
+    "grouped_competitors": 1,
+    "witnesses": [],
+    "sample_t": {}
+   },
+   "1": {
+    "words": 2,
+    "unique_D2_polynomials": 1,
+    "grouped_competitors": 1,
+    "witnesses": [],
+    "sample_t": {}
+   },
+   "2": {
+    "words": 4,
+    "unique_D2_polynomials": 2,
+    "grouped_competitors": 2,
+    "witnesses": [],
+    "sample_t": {}
+   },
+   "3": {
+    "words": 8,
+    "unique_D2_polynomials": 3,
+    "grouped_competitors": 3,
+    "witnesses": [],
+    "sample_t": {}
+   },
+   "4": {
+    "words": 16,
+    "unique_D2_polynomials": 5,
+    "grouped_competitors": 4,
+    "witnesses": [],
+    "sample_t": {}
+   },
+   "5": {
+    "words": 32,
+    "unique_D2_polynomials": 8,
+    "grouped_competitors": 5,
+    "witnesses": [],
+    "sample_t": {}
+   },
+   "6": {
+    "words": 64,
+    "unique_D2_polynomials": 13,
+    "grouped_competitors": 6,
+    "witnesses": [],
+    "sample_t": {}
+   },
+   "7": {
+    "words": 128,
+    "unique_D2_polynomials": 21,
+    "grouped_competitors": 7,
+    "witnesses": [],
+    "sample_t": {}
+   },
+   "8": {
+    "words": 256,
+    "unique_D2_polynomials": 35,
+    "grouped_competitors": 8,
+    "witnesses": [],
+    "sample_t": {}
+   },
+   "9": {
+    "words": 512,
+    "unique_D2_polynomials": 59,
+    "grouped_competitors": 9,
+    "witnesses": [
+     "AABABABAB",
+     "ABABAABAB",
+     "ABABABAAB"
+    ],
+    "sample_t": {
+     "AABABABAB": "-1/2",
+     "ABABAABAB": "-291/512",
+     "ABABABAAB": "15/32"
+    }
+   }
+  },
+  "seconds": 39.978659743
+ },
+ "seconds_witness_and_ceiling": 2.749605297
+}
