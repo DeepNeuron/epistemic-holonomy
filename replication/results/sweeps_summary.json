@@ -1,0 +1,284 @@
+{
+ "depth": 12,
+ "nominal_eps": "pi/3",
+ "K_MAX": 60,
+ "M_MAX": 24,
+ "axes": {
+  "gamma": {
+   "label": "dephasing exponent per sensing window",
+   "n_points": 201,
+   "seconds": 7.937686774,
+   "nominal": {
+    "witness": 0.974278579257,
+    "best_all_9": 0.974278579257,
+    "best_inter_9": 0.974278579257,
+    "best_grouped_9": 0.866025403784,
+    "gap_9": 0.108253175473,
+    "best_all_12": 0.974278579257,
+    "best_inter_12": 0.974278579257,
+    "best_grouped_12": 0.866025403784,
+    "gap_12": 0.108253175473,
+    "best_all_time": 0.974278579257,
+    "best_inter_time": 0.974278579257,
+    "grouped_long": 0.866025403784,
+    "grouped_time": 0.866025403784,
+    "ramsey_oracle": 1.0,
+    "ramsey_oracle_theta": 1.57079632679,
+    "ramsey_oracle_s": 1.0,
+    "ramsey_nominal": 1.0
+   },
+   "witness_beats_grouped9_window": [
+    {
+     "value": 0.0,
+     "status": "sweep range exhausted (advantage persists to the end of the grid)"
+    },
+    {
+     "value": 0.0667656963123,
+     "status": "root of witness - best grouped (<=9), bracketed on the grid"
+    }
+   ],
+   "any_word_le9_beats_grouped_le9_window_grid": [
+    0.0,
+    0.065
+   ],
+   "fraction_of_sweep_with_gap_9": 0.134328358209,
+   "any_word_le12_beats_grouped_le12_window_grid": [
+    0.0,
+    0.065
+   ],
+   "fraction_of_sweep_with_gap_12": 0.134328358209,
+   "fraction_of_sweep_where_best_word_beats_ramsey_oracle": 0.0,
+   "first_x_where_best_word_beats_ramsey_oracle": null
+  },
+  "delta": {
+   "label": "fractional systematic pulse-area error",
+   "n_points": 301,
+   "seconds": 12.491899493,
+   "nominal": {
+    "witness": 0.974278579257,
+    "best_all_9": 0.974278579257,
+    "best_inter_9": 0.974278579257,
+    "best_grouped_9": 0.866025403784,
+    "gap_9": 0.108253175473,
+    "best_all_12": 0.974278579257,
+    "best_inter_12": 0.974278579257,
+    "best_grouped_12": 0.866025403784,
+    "gap_12": 0.108253175473,
+    "best_all_time": 0.974278579257,
+    "best_inter_time": 0.974278579257,
+    "grouped_long": 0.866025403784,
+    "grouped_time": 0.866025403784,
+    "ramsey_oracle": 1.0,
+    "ramsey_oracle_theta": 1.57079632679,
+    "ramsey_oracle_s": 1.0,
+    "ramsey_nominal": 1.0
+   },
+   "witness_beats_grouped9_window": [
+    {
+     "value": -0.0368698860093,
+     "status": "root of witness - best grouped (<=9), bracketed on the grid"
+    },
+    {
+     "value": 0.0344185825344,
+     "status": "root of witness - best grouped (<=9), bracketed on the grid"
+    }
+   ],
+   "any_word_le9_beats_grouped_le9_window_grid": [
+    -0.036,
+    0.034
+   ],
+   "fraction_of_sweep_with_gap_9": 0.235880398671,
+   "any_word_le12_beats_grouped_le12_window_grid": [
+    -0.035,
+    0.041
+   ],
+   "fraction_of_sweep_with_gap_12": 0.53488372093,
+   "fraction_of_sweep_where_best_word_beats_ramsey_oracle": 0.0,
+   "first_x_where_best_word_beats_ramsey_oracle": null
+  },
+  "eta": {
+   "label": "fractional systematic field-magnitude error",
+   "n_points": 321,
+   "seconds": 13.673714666,
+   "nominal": {
+    "witness": 0.974278579257,
+    "best_all_9": 0.974278579257,
+    "best_inter_9": 0.974278579257,
+    "best_grouped_9": 0.866025403784,
+    "gap_9": 0.108253175473,
+    "best_all_12": 0.974278579257,
+    "best_inter_12": 0.974278579257,
+    "best_grouped_12": 0.866025403784,
+    "gap_12": 0.108253175473,
+    "best_all_time": 0.974278579257,
+    "best_inter_time": 0.974278579257,
+    "grouped_long": 0.866025403784,
+    "grouped_time": 0.866025403784,
+    "ramsey_oracle": 1.0,
+    "ramsey_oracle_theta": 1.57079632679,
+    "ramsey_oracle_s": 1.0,
+    "ramsey_nominal": 1.0
+   },
+   "witness_beats_grouped9_window": [
+    {
+     "value": -0.168037613174,
+     "status": "root of witness - best grouped (<=9), bracketed on the grid"
+    },
+    {
+     "value": 0.206040593048,
+     "status": "root of witness - best grouped (<=9), bracketed on the grid"
+    }
+   ],
+   "any_word_le9_beats_grouped_le9_window_grid": [
+    -0.4,
+    0.4
+   ],
+   "fraction_of_sweep_with_gap_9": 1.0,
+   "any_word_le12_beats_grouped_le12_window_grid": [
+    -0.4,
+    0.4
+   ],
+   "fraction_of_sweep_with_gap_12": 1.0,
+   "fraction_of_sweep_where_best_word_beats_ramsey_oracle": 0.0,
+   "first_x_where_best_word_beats_ramsey_oracle": null
+  },
+  "rho_c": {
+   "label": "control duration / sensing window",
+   "n_points": 201,
+   "seconds": 92.003127361,
+   "nominal": {
+    "witness": 0.974278579257,
+    "best_all_9": 0.974278579257,
+    "best_inter_9": 0.974278579257,
+    "best_grouped_9": 0.866025403784,
+    "gap_9": 0.108253175473,
+    "best_all_12": 0.974278579257,
+    "best_inter_12": 0.974278579257,
+    "best_grouped_12": 0.866025403784,
+    "gap_12": 0.108253175473,
+    "best_all_time": 0.974278579257,
+    "best_inter_time": 0.974278579257,
+    "grouped_long": 0.866025403784,
+    "grouped_time": 0.866025403784,
+    "ramsey_oracle": 1.0,
+    "ramsey_oracle_theta": 1.57079632679,
+    "ramsey_oracle_s": 1.0,
+    "ramsey_nominal": 1.0
+   },
+   "witness_beats_grouped9_window": [
+    {
+     "value": 0.0,
+     "status": "sweep range exhausted (advantage persists to the end of the grid)"
+    },
+    {
+     "value": 0.127292330081,
+     "status": "root of witness - best grouped (<=9), bracketed on the grid"
+    }
+   ],
+   "any_word_le9_beats_grouped_le9_window_grid": [
+    0.0,
+    0.655
+   ],
+   "fraction_of_sweep_with_gap_9": 0.990049751244,
+   "any_word_le12_beats_grouped_le12_window_grid": [
+    0.0,
+    1.0
+   ],
+   "fraction_of_sweep_with_gap_12": 1.0,
+   "fraction_of_sweep_where_best_word_beats_ramsey_oracle": 0.318407960199,
+   "first_x_where_best_word_beats_ramsey_oracle": 0.685
+  },
+  "sigma_delta": {
+   "label": "std of quasi-static Gaussian pulse-area error",
+   "n_points": 31,
+   "seconds": 264.365855741,
+   "nominal": {
+    "witness": 0.974278579257,
+    "best_all_9": 0.974278579257,
+    "best_inter_9": 0.974278579257,
+    "best_grouped_9": 0.866025403784,
+    "gap_9": 0.108253175473,
+    "best_all_12": 0.974278579257,
+    "best_inter_12": 0.974278579257,
+    "best_grouped_12": 0.866025403784,
+    "gap_12": 0.108253175473,
+    "best_all_time": 0.974278579257,
+    "best_inter_time": 0.974278579257,
+    "grouped_long": 0.866025403784,
+    "grouped_time": 0.866025403784,
+    "ramsey_oracle": 1.0,
+    "ramsey_oracle_theta": 1.57079632679,
+    "ramsey_oracle_s": 1.0,
+    "ramsey_nominal": 1.0
+   },
+   "witness_beats_grouped9_window": [
+    {
+     "value": 0.0,
+     "status": "sweep range exhausted (advantage persists to the end of the grid)"
+    },
+    {
+     "value": 0.15,
+     "status": "sweep range exhausted (advantage persists to the end of the grid)"
+    }
+   ],
+   "any_word_le9_beats_grouped_le9_window_grid": [
+    0.0,
+    0.15
+   ],
+   "fraction_of_sweep_with_gap_9": 1.0,
+   "any_word_le12_beats_grouped_le12_window_grid": [
+    0.0,
+    0.15
+   ],
+   "fraction_of_sweep_with_gap_12": 1.0,
+   "fraction_of_sweep_where_best_word_beats_ramsey_oracle": 0.0,
+   "first_x_where_best_word_beats_ramsey_oracle": null
+  },
+  "sigma_eta": {
+   "label": "std of quasi-static Gaussian field-magnitude error",
+   "n_points": 41,
+   "seconds": 356.760561276,
+   "nominal": {
+    "witness": 0.974278579257,
+    "best_all_9": 0.974278579257,
+    "best_inter_9": 0.974278579257,
+    "best_grouped_9": 0.866025403784,
+    "gap_9": 0.108253175473,
+    "best_all_12": 0.974278579257,
+    "best_inter_12": 0.974278579257,
+    "best_grouped_12": 0.866025403784,
+    "gap_12": 0.108253175473,
+    "best_all_time": 0.974278579257,
+    "best_inter_time": 0.974278579257,
+    "grouped_long": 0.866025403784,
+    "grouped_time": 0.866025403784,
+    "ramsey_oracle": 1.0,
+    "ramsey_oracle_theta": 1.57079632679,
+    "ramsey_oracle_s": 1.0,
+    "ramsey_nominal": 1.0
+   },
+   "witness_beats_grouped9_window": [
+    {
+     "value": 0.0,
+     "status": "sweep range exhausted (advantage persists to the end of the grid)"
+    },
+    {
+     "value": 0.244039424309,
+     "status": "root of witness - best grouped (<=9), bracketed on the grid"
+    }
+   ],
+   "any_word_le9_beats_grouped_le9_window_grid": [
+    0.0,
+    0.4
+   ],
+   "fraction_of_sweep_with_gap_9": 1.0,
+   "any_word_le12_beats_grouped_le12_window_grid": [
+    0.0,
+    0.4
+   ],
+   "fraction_of_sweep_with_gap_12": 1.0,
+   "fraction_of_sweep_where_best_word_beats_ramsey_oracle": 0.487804878049,
+   "first_x_where_best_word_beats_ramsey_oracle": 0.21
+  }
+ }
+}

@@ -35,3 +35,7 @@ These are expected outputs, not a recorded execution log. Independent replicatio
 ## Quantum sensing and metrology
 
 See [the sensing research note](QUANTUM_SENSING.md). The explicit witness concerns binary field-sign discrimination, not local estimation precision, a demonstrated hardware advantage, or a violation of a quantum limit.
+
+## Independent replication
+
+An independent density-matrix and channel implementation, noise sweeps, and a list of discrepancies and limitations are in [replication/REPLICATION.md](replication/REPLICATION.md).

@@ -1,0 +1,41 @@
+{
+ "eps_gamma": {
+  "x": "eps",
+  "y": "gamma",
+  "shape": [
+   181,
+   41
+  ],
+  "seconds": 47.023027021,
+  "fraction_gap_9": 0.00579436733594,
+  "fraction_gap_12": 0.0192696402102,
+  "fraction_witness_beats_grouped9": 0.00256030184611,
+  "fraction_witness_beats_grouped_long": 0.00121277455868
+ },
+ "delta_eta": {
+  "x": "delta",
+  "y": "eta",
+  "shape": [
+   81,
+   81
+  ],
+  "seconds": 42.224282691,
+  "fraction_gap_9": 0.862216125591,
+  "fraction_gap_12": 0.974089315653,
+  "fraction_witness_beats_grouped9": 0.196463953666,
+  "fraction_witness_beats_grouped_long": 0.0231672001219
+ },
+ "rhoc_gamma": {
+  "x": "rho_c",
+  "y": "gamma",
+  "shape": [
+   41,
+   41
+  ],
+  "seconds": 25.757935507,
+  "fraction_gap_9": 0.874479476502,
+  "fraction_gap_12": 0.874479476502,
+  "fraction_witness_beats_grouped9": 0.0696014277216,
+  "fraction_witness_beats_grouped_long": 0.0481856038073
+ }
+}

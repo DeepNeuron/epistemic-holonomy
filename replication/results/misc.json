@@ -1,0 +1,54 @@
+{
+ "repeated_grouped_shots": {
+  "note": "N independent copies of the pure output states of AB at eps=pi/3 with a collective optimal measurement; needs resets, which the restricted model forbids.",
+  "D_single_AB": 0.866025403784,
+  "D_N_copies": {
+   "1": 0.866025403784,
+   "2": 0.968245836552,
+   "3": 0.992156741649,
+   "4": 0.998044963917
+  },
+  "traversals": {
+   "1": 2,
+   "2": 4,
+   "3": 6,
+   "4": 8
+  },
+  "witness_D": 0.974278579257
+ },
+ "gauss_hermite_convergence_grouped_long": {
+  "sigma_eta_nodes_51": [
+   0.824326113769,
+   0.858073172836
+  ],
+  "sigma_delta_nodes_51": [
+   0.86483908815,
+   0.855406878694
+  ],
+  "sigma_eta_nodes_101": [
+   0.824326113769,
+   0.710893162454
+  ],
+  "sigma_delta_nodes_101": [
+   0.86483908815,
+   0.855406878694
+  ],
+  "sigma_eta_nodes_201": [
+   0.824326113769,
+   0.710893162454
+  ],
+  "sigma_delta_nodes_201": [
+   0.86483908815,
+   0.855406878694
+  ]
+ },
+ "versions": {
+  "python": "3.13.18",
+  "numpy": "2.5.5",
+  "scipy": "1.18.1",
+  "sympy": "1.13.3",
+  "matplotlib": "3.11.2",
+  "platform": "Linux-6.18.44-fc-v880-x86_64-with-glibc2.39",
+  "machine": "x86_64"
+ }
+}
