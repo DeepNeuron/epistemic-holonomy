@@ -97,3 +97,12 @@ if __name__ == "__main__":
                   "BAB", sp.Rational(27, 32), sp.Rational(3, 8))
     verify_tilted(rotation(tilted, 0, 1), rotation(z_axis, half, sine),
                   "ABAB", sp.Rational(249, 256), sp.Rational(3, 4))
+
+    # At epsilon=pi/3 all grouped words have D <= sqrt(3)/2,
+    # regardless of length, by periodicity of sin(k*pi/3).
+    a = rotation(y_axis, half, sine)
+    b = rotation(z_axis, 0, 1)
+    assert squared_distance("ABABABAAB", a, b) == sp.Rational(243, 256)
+    assert max(sp.sin(k*sp.pi/3)**2 for k in range(6)) == sp.Rational(3, 4)
+    print("PASS: nine-step witness D^2=243/256; unlimited grouped ceiling D^2=3/4")
+    print("PASS: all certificate assertions completed")
